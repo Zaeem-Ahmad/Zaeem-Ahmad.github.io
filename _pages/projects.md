@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Is the jack of all trades, master of none, better than the master of one?
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [university, personal]
 horizontal: false
 ---
 

@@ -1,80 +1,100 @@
 ---
-layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+layout: distill
+title: ECE Hardware Workshop
+description: May 25, 2024 — May 28, 2024
+img: assets/img/project5/thum.jpg
+importance: 5
+category: university
+related_publications: false
+
+authors:
+  - name: Zaeem Ahmad
+    url: 
+    affiliations:
+      name: University of Toronto
+
+toc:
+  - name: Introduction
+  - name: What We Did
+  - name: What We Built
+  - name: What I Learned
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Introduction
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Professor Hamid Shokrallah, an experienced professor in the Electrical and Computer Engineering (ECE) department of the University of Toronto, had been holding ECE summer workshops and hosting competitions for the past few years. Naturally, my interest was piqued after making this discovery, so two of my friends and I decided to attend. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The workshop spanned a few weeks and was divided into two: a hardware workshop and a robotics workshop. Here, I talk about the hardware workshop; robotics is discussed elsewhere.
+
+## What We Did
+
+Coming out of ECE110, we were familiar with electrical components such as resistors, capacitors, and inductors. But to create real-life analog circuits, other components were necessary. To teach us these, the workshop coordinators had the workshop split into 4 different phases, which are as follows:
+
+<u>Phase 1</u>: This first phase was a review of ECE110. We were given a refresher on linear circuit elements like resistors, capacitors, inductors etc as well as parallel/series circuits. We practiced some hands-on skills such as soldering, and we made use of breadboards, DMMs, function generators and oscilloscopes. 
+
+<u>Phase 2</u>: Next, we were given a preview of what some second year electromagnetics courses (ECE212/231) would teach. This included learning about semiconductors (pnp, npn etc.), diodes, LEDs, transistors (MOSFETS etc.). We built an astable multivibrator and used op-amps to create amplifiers and inverters. 
+
+<u>Phase 3</u>: Then we started building more involved analog circuits. We learned about pulse width modulation (PWM) and DC motors to build an H-bridge circuit. We also looked at photoresistors and phototransistors to see how colour detectors worked.
+
+<u>Phase 4</u>: After learning about coupled inductors and generators, we built a joule thief circuit to power on LEDs. The workshop ended with a competition to see which team could light up the most number of LEDs using a hand-crank generator. We were to mix and match and “build” the ultimate circuit using everything we learned.
+
+## What We Built
+
+This workshop in particular was especially enjoyable for me because it let me handle electrical lab equipment in a stress-free environment. Unlike the ECE110 labs, the work done here was motivated purely by real-life application, and Professor Hamid and the coordinators Samantha and Basil were very interactive and made things fun for us. I am going to share some of the things we built and did:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project5/halfwave.jpg" title="hart house" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The wave in yellow is the signal output from the function generator. The wave in blue is the signal output from a half-wave rectifier as viewed through the oscilloscope.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project5/fullbridge.jpg" title="hart house" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Circuit diagram of the full-bridge rectifier that we built.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<!-- 
+[How capacitors are used to smoothen the fullbridge rectifier's output signal.](https://youtu.be/ctY8QRzDz8c) -->
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project5/astable.jpg" title="hart house" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Circuit diagram of the astable multivibrator that we built. 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<!-- 
+| Here are a few videos showcasing the astable multivibrator, an inverting amplifier, and an H-bridge |
+|------------|
+| Video of astable multivibrator with two red LEDs |
+| Red and blue LEDs (like a police car) |
+| Blue, green, and white LEDs |
+| Video showcase of inverting amplifier |
+| Video showcase of H-bridge + PWM + DC motor | -->
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project5/jouletheif.jpg" title="hart house" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Joule-thief we built using coupled inductors.
+</div>
 
-{% endraw %}
+## What I Learned
+
+This workshop was vital for me going into second year. Not only did it give me a chance to practice what I learned in first year, it gave me a preview into some second year concepts. The labs in ECE110 were quite rushed and a little stressful, so I didn’t get to explore and enjoy using the electronic equipment. This workshop gave me that chance to explore, make mistakes, and learn. I’ve gained more confidence and some intuition with regards to analog circuits and how to use electrical equipment. 
+
+As well, it was amazing to learn how people went from discovering semiconductors to creating revolutionary components like diodes, transistors, MOSFETs etc. Going through multiple levels of abstraction to “build” useful circuits (inverter, rectifier, H-bridge, Joule thief etc.) was eye-opening indeed. 
+
+This workshop and the mini-projects within made me look forward to second year hardware courses and the world of electronics. 
