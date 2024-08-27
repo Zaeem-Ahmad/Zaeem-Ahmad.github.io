@@ -2,7 +2,7 @@
 layout: distill
 title: OpticFlip
 description: Jan 8, 2024 — Apr 16, 2024
-img: assets/img/project3/tablet.jpg
+img: assets/img/project3/blackbox.jpg
 importance: 3
 category: university
 related_publications: false
