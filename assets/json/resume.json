@@ -42,39 +42,30 @@
   ],
   "projects": [
     {
-      "name": "Hart House Wayfinding",
-      "summary": "Led a diverse 6-member team in Engineering Strategies and Practice I to design a wayfinding solution for Hart House, overcoming communication challenges and applying rigorous engineering design methodologies.",
+      "name": "Nightblade",
+      "summary": "Worked with CAD, microcontrollers, and algorithms. Designed and built autonomous robots, placing second in a challenging race, gaining confidence in digital electronics and teamwork.",
       "highlights": [
-        "Team Leadership",
-        "Engineering Design"
+        "Robotics & Autonomous Systems",
+        "CAD Design (Fusion 360)",
+        "Microcontroller Programming",
+        "Algorithm Development",
+        "Team Collaboration"
       ],
-      "startDate": "2023-09-06",
-      "endDate": "2023-12-08",
-      "url": "https://zaeem-ahmad.github.io/projects/1_project/"
-    },
+      "startDate": "2024-05-28",
+      "endDate": "2024-06-05",
+      "url": "https://zaeem-ahmad.github.io/projects/6_project/"
+    }
     {
-      "name": "MedTray",
-      "summary": "Developed MedTray, an automated medication dispenser, to aid nurses during COVID-19 by simplifying medication management. Led 3D design, coding, and assembly, overcoming technical challenges to ensure a functional prototype.",
+      "name": "ECE Hardware Workshop",
+      "summary": "Attended a University of Toronto ECE summer workshop, dealing with analog circuits and lab equipment. Built circuits like rectifiers and a Joule thief, gaining practical skills and confidence for second-year courses.",
       "highlights": [
-        "3D Design with AutoCAD Fusion 360",
-        "Arduino Programming",
-        "Prototyping"
+        "Rudimentary Analog Circuit Design",
+        "Electrical Lab Equipment",
+        "Semiconductor Components"
       ],
-      "startDate": "2024-02-17",
-      "endDate": "2024-02-18",
-      "url": "https://zaeem-ahmad.github.io/projects/2_project/"
-    },
-    {
-      "name": "OpticFlip",
-      "summary": "Led a cross-disciplinary team to design OpticFlip, an eye-tracking communication device for a cerebral palsy patient. Managed client interactions, testing protocols, and final presentation, enhancing engineering design and leadership skills.",
-      "highlights": [
-        "Project Management",
-        "Engineering Design",
-        "Client Interaction"
-      ],
-      "startDate": "2024-01-08",
-      "endDate": "2024-04-16",
-      "url": "https://zaeem-ahmad.github.io/projects/3_project/"
+      "startDate": "2024-05-25",
+      "endDate": "2024-05-28",
+      "url": "https://zaeem-ahmad.github.io/projects/5_project/"
     },
     {
       "name": "Elemental",
@@ -89,30 +80,39 @@
       "url": "https://zaeem-ahmad.github.io/projects/4_project/"
     },
     {
-      "name": "ECE Hardware Workshop",
-      "summary": "Attended a University of Toronto ECE summer workshop, dealing with analog circuits and lab equipment. Built circuits like rectifiers and a Joule thief, gaining practical skills and confidence for second-year courses.",
+      "name": "OpticFlip",
+      "summary": "Led a cross-disciplinary team to design OpticFlip, an eye-tracking communication device for a cerebral palsy patient. Managed client interactions, testing protocols, and final presentation, enhancing engineering design and leadership skills.",
       "highlights": [
-        "Rudimentary Analog Circuit Design",
-        "Electrical Lab Equipment",
-        "Semiconductor Components"
+        "Project Management",
+        "Engineering Design",
+        "Client Interaction"
       ],
-      "startDate": "2024-05-25",
-      "endDate": "2024-05-28",
-      "url": "https://zaeem-ahmad.github.io/projects/5_project/"
+      "startDate": "2024-01-08",
+      "endDate": "2024-04-16",
+      "url": "https://zaeem-ahmad.github.io/projects/3_project/"
     },
     {
-      "name": "Nightblade",
-      "summary": "Worked with CAD, microcontrollers, and algorithms. Designed and built autonomous robots, placing second in a challenging race, gaining confidence in digital electronics and teamwork.",
+      "name": "MedTray",
+      "summary": "Developed MedTray, an automated medication dispenser, to aid nurses during COVID-19 by simplifying medication management. Led 3D design, coding, and assembly, overcoming technical challenges to ensure a functional prototype.",
       "highlights": [
-        "Robotics & Autonomous Systems",
-        "CAD Design (Fusion 360)",
-        "Microcontroller Programming",
-        "Algorithm Development",
-        "Team Collaboration"
+        "3D Design with AutoCAD Fusion 360",
+        "Arduino Programming",
+        "Prototyping"
       ],
-      "startDate": "2024-05-28",
-      "endDate": "2024-06-05",
-      "url": "https://zaeem-ahmad.github.io/projects/6_project/"
+      "startDate": "2024-02-17",
+      "endDate": "2024-02-18",
+      "url": "https://zaeem-ahmad.github.io/projects/2_project/"
+    },
+    {
+      "name": "Hart House Wayfinding",
+      "summary": "Led a diverse 6-member team in Engineering Strategies and Practice I to design a wayfinding solution for Hart House, overcoming communication challenges and applying rigorous engineering design methodologies.",
+      "highlights": [
+        "Team Leadership",
+        "Engineering Design"
+      ],
+      "startDate": "2023-09-06",
+      "endDate": "2023-12-08",
+      "url": "https://zaeem-ahmad.github.io/projects/1_project/"
     }
   ],
   "work": [
@@ -159,7 +159,7 @@
     {
       "organization": "University of Toronto Aerospace Team",
       "location": "Toronto, Ontario",
-      "position": "FINCH Mission Member",
+      "position": "Electrical Power Systems (EPS) Member",
       "url": "https://www.utat.ca/space-systems",
       "startDate": "2024-01-06",
       "endDate": "Present",
@@ -168,33 +168,6 @@
         "PCB Design (Altium Designer)",
         "R&D in Photovoltaic Systems",
         "Collaboration and Data Analysis"
-      ]
-    },
-    {
-      "organization": "Salaheddin Islamic School Student Council",
-      "location": "Scarborough, Ontario",
-      "position": "Co-founder and Co-president",
-      "url": "",
-      "startDate": "2023-09",
-      "endDate": "2024-06",
-      "summary": "Founded and led my school’s first student council, organizing and executing events such as fundraisers, spelling bees, drives, science fairs, and intramurals, as well as releasing the first issue of a school magazine named VantagePoint",
-      "highlights": [
-        "Leadership and Project Management",
-        "Fundraising and Community Engagement",
-        "Graphic and Print Design"
-      ]
-    },
-    {
-      "organization": "Bangladesh Centre and Community Services (BCCS)",
-      "location": "Scarborough, Ontario",
-      "position": "Teacher and Course Developer",
-      "url": "https://www.bangladeshcentre.ca/",
-      "startDate": "2021-09",
-      "endDate": "2024-06",
-      "summary": "Developed and delivered weekly lessons for computer basics and English classes tailored for seniors, covering hardware/software skills and providing personalized instruction in reading, vocabulary, and conversation.",
-      "highlights": [
-        "Instructional Design and Delivery",
-        "Individualized Tutoring"
       ]
     },
     {
@@ -208,6 +181,33 @@
       "highlights": [
         "Leadership and Mentoring",
         "Martial Arts Instruction"
+      ]
+    },
+    {
+      "organization": "Salaheddin Islamic School Student Council",
+      "location": "Scarborough, Ontario",
+      "position": "Co-founder and Co-president",
+      "url": "",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "summary": "Founded and led my school’s first student council, organizing and executing events such as fundraisers, spelling bees, drives, science fairs, and intramurals, as well as releasing the first issue of a school magazine named VantagePoint",
+      "highlights": [
+        "Leadership and Project Management",
+        "Fundraising and Community Engagement",
+        "Graphic and Print Design"
+      ]
+    },
+    {
+      "organization": "Bangladesh Centre and Community Services (BCCS)",
+      "location": "Scarborough, Ontario",
+      "position": "Teacher and Course Developer",
+      "url": "https://www.bangladeshcentre.ca/",
+      "startDate": "2021-09",
+      "endDate": "2023-06",
+      "summary": "Developed and delivered weekly lessons for computer basics and English classes tailored for seniors, covering hardware/software skills and providing personalized instruction in reading, vocabulary, and conversation.",
+      "highlights": [
+        "Instructional Design and Delivery",
+        "Individualized Tutoring"
       ]
     }
   ],
@@ -279,8 +279,31 @@
       "language": "French",
       "fluency": "Proficient",
       "icon": ""
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Currently Learning",
+      "icon": ""
     }
   ]
+  // "interests": [
+  //   {
+  //     "name": "Books Read in 2024",
+  //     "icon": "fa-solid fa-book",
+  //     "keywords": [
+  //       "Jade City",
+  //       "Jade War",
+  //       "Jade Legacy",
+  //       "[Novella] Jade Shards and [Novella] The Jade Setter of Janloon",
+  //       "The Sword of Kaigen",
+  //       "Project Hail Mary",
+  //       "Serpent and Dove",
+  //       "The It Girl",
+  //       "Mistborn: The Final Empire",
+  //       ""
+  //     ]
+  //   }
+  // ]
   // "publications": [
   //   {
   //     "name": "Zur Elektrody/namik bewegter Körper",
@@ -309,20 +332,6 @@
   //     "name": "Physics",
   //     "level": "Master",
   //     "icon": "fa-solid fa-hashtag",
-  //     "keywords": [
-  //       "Quantum Mechanics",
-  //       "Quantum Computing",
-  //       "Quantum Information",
-  //       "Quantum Cryptography",
-  //       "Quantum Communication",
-  //       "Quantum Teleportation"
-  //     ]
-  //   }
-  // ],
-  // "interests": [
-  //   {
-  //     "name": "Physics",
-  //     "icon": "fa-solid fa-tag",
   //     "keywords": [
   //       "Quantum Mechanics",
   //       "Quantum Computing",

@@ -4,7 +4,7 @@ title: Nightblade
 description: May 28, 2024 — Jun 5, 2024
 img: assets/img/project6/thum.jpg
 importance: 6
-category: university
+category: extracurricular
 related_publications: false
 
 authors:
