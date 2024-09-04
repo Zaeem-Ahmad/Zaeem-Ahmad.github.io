@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Resume
+title: Résumé
 nav: true
 nav_order: 5
 cv_pdf: 9 - Zaeem Ahmad's Resume.pdf

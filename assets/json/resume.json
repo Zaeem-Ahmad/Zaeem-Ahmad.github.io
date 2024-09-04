@@ -42,6 +42,18 @@
   ],
   "projects": [
     {
+      "name": "KrossKut Data Analysis",
+      "summary": "Collaborated on developing a data analysis platform for KrossKut, using MinIO, Dremio, and Superset to analyze and visualize client data, with a focus on big data processing, data lakehouses, and predictive modeling.",
+      "highlights": [
+        "Big Data Processing",
+        "Data Lakehouse (Dremio)",
+        "Predictive Modeling (Prophet Library, MATLAB)"
+      ],
+      "startDate": "2024-07-13",
+      "endDate": "2024-09-02",
+      "url": "https://zaeem-ahmad.github.io/projects/7_project/"
+    },
+    {
       "name": "Nightblade",
       "summary": "Worked with CAD, microcontrollers, and algorithms. Designed and built autonomous robots, placing second in a challenging race, gaining confidence in digital electronics and teamwork.",
       "highlights": [
